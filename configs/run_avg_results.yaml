@@ -1,0 +1,10 @@
+cuda_devices: ''
+hydra:
+  run:
+    dir: ${output_dir}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+config_path: '../configs/sst2_debug.yaml'
+model_dir: '../workdir/run_train_models/2020-11-08/19-39-05/models/sst2_debug'
+args: ''
+seeds: '17,42,51'
+output_dir: '../workdir/run_avg_results'
+repeat: ''

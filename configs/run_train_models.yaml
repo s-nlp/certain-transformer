@@ -1,0 +1,9 @@
+cuda_devices: ''
+hydra:
+  run:
+    dir: ${output_dir}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+seeds: '101,17,217,42,23'
+config_dir: '../configs/'
+task_configs: 'sst2_debug.yaml'
+args: ''
+output_dir: '../workdir/run_train_models'
