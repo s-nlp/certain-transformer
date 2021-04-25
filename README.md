@@ -11,7 +11,7 @@ In this work, we consider the problem of uncertainty estimation for Transformer-
 
 You can learn more about the methods implemented in this repository in the following paper: 
 
-Shelmanov, A., Tsymbalov, E., Puzyrev, D., Fedyanin, K., Panchenko, A., Panov, M. (2021): [How Certain is Your Transformer?](https://www.aclweb.org/anthology/2021.eacl-main.157/) In Proceeding of the 16th conference of the European Chapter of the Association for Computational Linguistics (EACL). 
+*Shelmanov, A., Tsymbalov, E., Puzyrev, D., Fedyanin, K., Panchenko, A., Panov, M. (2021): [How Certain is Your Transformer?](https://www.aclweb.org/anthology/2021.eacl-main.157/) In Proceeding of the 16th conference of the European Chapter of the Association for Computational Linguistics (EACL).*
 
 If you found the materials presented in this paper and/or repository useful, please cite it as following:
 
@@ -42,3 +42,7 @@ If you found the materials presented in this paper and/or repository useful, ple
 ```
 HYDRA_CONFIG_PATH=../configs/sst2.yaml python ./run_glue.py
 ```
+
+## Contact
+
+For all the questions contact to Artem Shelmanov, Maxim Panov, or Alexander Panchenko (you can find emails in the paper) or just open an issue in this repository. 
